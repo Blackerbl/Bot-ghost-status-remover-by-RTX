@@ -42,7 +42,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Listening to Spotify","Watching YouTube"];
+const statusMessages = ["IG=YAPRAKDUBLAJ","Sunucuyu izliyorum","Bizi Takip Etmeyi Unutma!","Youtube Hesabımı Gördün mü?","Mal Yaprak 🙂 "];
 
 
 let currentIndex = 0;
