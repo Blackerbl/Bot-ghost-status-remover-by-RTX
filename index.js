@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["PLAYING","MUSIC"];
+const statusMessages = ["Bir Gün insanlik yok olacak!","Sunucuyu izliyorum"];
 
 
 let currentIndex = 0;
