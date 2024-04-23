@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Küfürleri Engelliyor","Sizler Sinirimi bozuyorsunuz","Film izliyor!"];
+const statusMessages = ["Hey Ben Bir Nsfw Botuyum Ama","Sizler Sinirimi bozuyorsunuz","Film izliyor!"];
 
 
 let currentIndex = 0;
