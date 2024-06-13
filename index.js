@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Partner Yapıyor...","Sizi İzliyor...","Açıklamamı Oku İstersen....","Anime Kızları Gerçek!"];
+const statusMessages = ["Partner Yapıyor..."," discord.gg/tokumei gel ","Sizi İzliyor...","Açıklamamı Oku İstersen....","Anime Kızları Gerçek!"];
 
 
 let currentIndex = 0;
