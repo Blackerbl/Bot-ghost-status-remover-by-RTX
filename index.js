@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Partner Yapıyor..."," discord.gg/tokumei gel ","Sizi İzliyor...","Açıklamamı Oku İstersen....","Anime Kızları Gerçek!"];
+const statusMessages = ["Partner Yapıyor..."," Hayat miss... ","Sizi İzliyor...","Açıklamamı Oku İstersen....","Anime Kızları Gerçek!"];
 
 
 let currentIndex = 0;
@@ -47,7 +47,7 @@ const channelId = '';
 async function login() {
   try {
     await client.login(process.env.TOKEN);
-    console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
+    console.log(`\x1b[36m%s\x1b[0m`, `|    Giriş yapıldı ${client.user.tag}`);
   } catch (error) {
     console.error('Failed to log in:', error);
     process.exit(1);
