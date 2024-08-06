@@ -1,5 +1,5 @@
-require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
+require('dotenv').config();
 
 const client = new Client({
     intents: [
@@ -17,12 +17,15 @@ client.on('guildMemberAdd', member => {
     const channel = member.guild.channels.cache.get('1177975094581149791'); // Karşılama mesajı göndermek istediğiniz kanalın ID'si
     if (!channel) return;
 
+    // Üye avatar URL'sini al
+    const avatarURL = member.user.avatarURL() || member.user.defaultAvatarURL();
+
     const welcomeMessage = {
-        content: `Aramıza Hoşgeldin <:3712zerotwoheartlove:1241389409585074206> ${member}  <@&1270293476398993418>`,
+        content: `Aramıza Hoşgeldin <:3712zerotwoheartlove:1241389409585074206> ${member} <@&1270293476398993418>`,
         embeds: [
             {
                 title: "Hoşgeldin",
-                description: `╭ »TENGOKU\n╎ ・<a:1794_sparkles:1241374294890643487>  ↦ ⁠・﹒ <#1177975089283731556> - kurallar Okumayı unutma!\n╎ ・ <a:4165_Hyped_ZeroTwo:1241374320912240701> ↦ ⁠⁠二・🍂﹒ <#1178051348537823355> - Kendini tanıtabilirsin..\n╎ ・<a:9770animepat:1251507026694246401>  ↦ ⁠ ⁠ <#1178266906256482385> - Renklerini Seç ve rollerini al!Hoşgeldin !\n╎ ・<a:lavendalove:1241483165403709581>  ↦ ⁠・﹒ <@&1241109140001001653>  - Partnerlik için geldiysen etiketleyebilirsin..\n╰ » Hadi Sana İyi Sohbetler`,
+                description: `╭ »TENGOKU\n╎ ・<a:1794_sparkles:1241374294890643487>  ↦ ⁠・﹒ <#1177975089283731556> - kurallar Okumayı unutma!\n╎ ・ <a:4165_Hyped_ZeroTwo:1241374320912240701> ↦ ⁠⁠二・🍂﹒ <#1178051348537823355> - Kendini tanıtabilirsin..\n╎ ・<a:9770animepat:1251507026694246401>  ↦ ⁠ ⁠ <#1178266906256482385> - Renklerini Seç ve rollerini al! Hoşgeldin !\n╎ ・<a:lavendalove:1241483165403709581>  ↦ ⁠・﹒ <@&1241109140001001653>  - Partnerlik için geldiysen etiketleyebilirsin..\n╰ » Hadi Sana İyi Sohbetler`,
                 color: null,
                 author: {
                     name: `${member.user.username} Sunucuya İniş Yaptı`
@@ -31,7 +34,7 @@ client.on('guildMemberAdd', member => {
                     url: "https://cdn.discordapp.com/attachments/1245412053506592870/1270294681334583361/15e7bdc6ebb30d2dd028ed52dfc5bbbb.gif?ex=66b32d9c&is=66b1dc1c&hm=d42b9a07f532cd8eb12aae3bd968cc9943b9d20d51d78ab58473bf22a49cc832&"
                 },
                 thumbnail: {
-                    url: " member.user.avatarURL() || member.user.defaultAvatarURL"
+                    url: avatarURL // Doğru URL'yi kullan
                 }
             }
         ],
