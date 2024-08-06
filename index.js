@@ -31,7 +31,7 @@ client.on('guildMemberAdd', member => {
                     url: "https://cdn.discordapp.com/attachments/1245412053506592870/1270294681334583361/15e7bdc6ebb30d2dd028ed52dfc5bbbb.gif?ex=66b32d9c&is=66b1dc1c&hm=d42b9a07f532cd8eb12aae3bd968cc9943b9d20d51d78ab58473bf22a49cc832&"
                 },
                 thumbnail: {
-                    url: "https://cdn.discordapp.com/attachments/1245412053506592870/1270294681334583361/15e7bdc6ebb30d2dd028ed52dfc5bbbb.gif?ex=66b32d9c&is=66b1dc1c&hm=d42b9a07f532cd8eb12aae3bd968cc9943b9d20d51d78ab58473bf22a49cc832&"
+                    url: " member.user.avatarURL() || member.user.defaultAvatarURL"
                 }
             }
         ],
