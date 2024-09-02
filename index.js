@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["๋𝙄𝙜𝙣𝙖𝙘𝙞𝙤✭İzliyor !"," Sizi Seviyor!","๋𝙄𝙜𝙣𝙖𝙘𝙞𝙤✭ Kayıt "];
+const statusMessages = ["Ben tatlı bir partner botuyummm","Seni İzliyorumm?","Sizinle Uğraşıyoum!","Kuru Kuru Kururin!","Hey Dikkatli Ol Gözüm Üzerinde! ","Minnak bir botum UwU <:focacomfy:1272421146544963646>","!Yardım izliyor..","Yardım için keke_km","Yardım için Wistyyx","https://discord.gg/Zz9ktZGgPy"];
 
 
 let currentIndex = 0;
