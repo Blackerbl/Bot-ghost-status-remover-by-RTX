@@ -36,8 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Listening to Spotify","Playing VALORANT"];
-
+const statusMessages = ["Ben tatlı bir partner botuyummm","Seni İzliyorumm?","Sizinle Uğraşıyoum!","Kuru Kuru Kururin!","Hey Dikkatli Ol Gözüm Üzerinde! ","Minnak bir botum UwU <:focacomfy:1272421146544963646>","!Yardım izliyor..","Yardım için keke_km","Yardım için Wistyyx","https://discord.gg/Zz9ktZGgPy"];
 
 let currentIndex = 0;
 const channelId = '';
