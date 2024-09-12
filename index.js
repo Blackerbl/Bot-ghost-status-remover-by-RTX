@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎧 Listening to Spotify", "🎮 Playing VALORANT"];
+const statusMessages = ["Ben tatlı bir partner botuyummm","Seni İzliyorumm?","Sizinle Uğraşıyoum!","Kuru Kuru Kururin!","Hey Dikkatli Ol Gözüm Üzerinde! ","Minnak bir botum UwU <:focacomfy:1272421146544963646>","!Yardım izliyor..","Yardım için keke_km","Yardım için Wistyyx","https://discord.gg/bushi"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
