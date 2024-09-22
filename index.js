@@ -19,10 +19,10 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Ben tatlı bir partner botuyummm","Seni İzliyorumm?","Sizinle Uğraşıyoum!","Kuru Kuru Kururin!","Hey Dikkatli Ol Gözüm Üzerinde! ","Minnak bir botum UwU <:focacomfy:1272421146544963646>","!Yardım izliyor..","Yardım için keke_km","Yardım için Wistyyx","https://discord.gg/Zz9ktZGgPy"];
+const statusMessages = ["Ben tatlı bir partner botuyummm","Seni İzliyorumm?","Sizinle Uğraşıyoum!","Kuru Kuru Kururin!","Hey Dikkatli Ol Gözüm Üzerinde! ","Minnak bir botum UwU","!Yardım izliyor..","Yardım için keke_km","Yardım için Wistyyx","https://discord.gg/bushi"];
 
 let currentIndex = 0;
-const channelId = '';
+const channelId = '1277116212802752573';
 
 async function login() {
   try {
